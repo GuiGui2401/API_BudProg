@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: convert-to-queryset
+Version: 0.1.7
+Summary: library for convert list,tuple and dictionary into queryset
+Home-page: https://github.com/DeepakDarkiee/convert_to_queryset.git
+License: MIT
+Keywords: convert,list,queryset
+Author: deepak
+Author-email: info.deepakpatidar@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/DeepakDarkiee/convert_to_queryset.git
+Description-Content-Type: text/markdown
+
+
+# convert to queryset
+
+This package enables you to convert list,tuple and set into queryset
+
+To install this package, use 
+
+```bash
+pip install convert-to-queryset
+```
+# for list 
+import it using the following
+```bash
+from convert_to_queryset import list_to_queryset
+```
+
+it will take two arguments: model and list
+```bash
+list_to_queryset(model,list)
+```
